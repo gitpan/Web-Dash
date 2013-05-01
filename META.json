@@ -61,15 +61,15 @@
    "provides" : {
       "Web::Dash" : {
          "file" : "lib/Web/Dash.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Web::Dash::DeeModel" : {
          "file" : "lib/Web/Dash/DeeModel.pm",
-         "version" : 0
+         "version" : "0.02"
       },
       "Web::Dash::Lens" : {
          "file" : "lib/Web/Dash/Lens.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Web::Dash::Util" : {
          "file" : "lib/Web/Dash/Util.pm",
@@ -82,5 +82,5 @@
          "url" : "git://github.com/debug-ito/Web-Dash.git"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
