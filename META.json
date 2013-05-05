@@ -4,7 +4,7 @@
       "Toshio Ito <toshioito@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.112621",
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.112150",
    "license" : [
       "perl_5"
    ],
@@ -33,7 +33,7 @@
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.38"
+            "Module::Build" : "0.40"
          }
       },
       "runtime" : {
@@ -45,6 +45,7 @@
             "File::Find" : 0,
             "Future::Q" : "0.012",
             "Getopt::Long" : 0,
+            "JSON" : 0,
             "Net::DBus" : "1.0",
             "Plack" : 0,
             "Plack::Request" : 0,
@@ -61,15 +62,15 @@
    "provides" : {
       "Web::Dash" : {
          "file" : "lib/Web/Dash.pm",
-         "version" : "0.02"
+         "version" : "0.031"
       },
       "Web::Dash::DeeModel" : {
          "file" : "lib/Web/Dash/DeeModel.pm",
-         "version" : "0.02"
+         "version" : "0.031"
       },
       "Web::Dash::Lens" : {
          "file" : "lib/Web/Dash/Lens.pm",
-         "version" : "0.02"
+         "version" : "0.031"
       },
       "Web::Dash::Util" : {
          "file" : "lib/Web/Dash/Util.pm",
@@ -82,5 +83,5 @@
          "url" : "git://github.com/debug-ito/Web-Dash.git"
       }
    },
-   "version" : "0.02"
+   "version" : "0.031"
 }

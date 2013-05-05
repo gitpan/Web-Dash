@@ -6,9 +6,9 @@ build_requires:
   Test::MockModule: 0.05
   Test::More: 0
 configure_requires:
-  Module::Build: 0.38
+  Module::Build: 0.40
 dynamic_config: 1
-generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112621'
+generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.112150'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -25,13 +25,13 @@ no_index:
 provides:
   Web::Dash:
     file: lib/Web/Dash.pm
-    version: 0.02
+    version: 0.031
   Web::Dash::DeeModel:
     file: lib/Web/Dash/DeeModel.pm
-    version: 0.02
+    version: 0.031
   Web::Dash::Lens:
     file: lib/Web/Dash/Lens.pm
-    version: 0.02
+    version: 0.031
   Web::Dash::Util:
     file: lib/Web/Dash/Util.pm
     version: 0
@@ -43,6 +43,7 @@ requires:
   File::Find: 0
   Future::Q: 0.012
   Getopt::Long: 0
+  JSON: 0
   Net::DBus: 1.0
   Plack: 0
   Plack::Request: 0
@@ -55,4 +56,4 @@ requires:
   perl: 5.006
 resources:
   repository: git://github.com/debug-ito/Web-Dash.git
-version: 0.02
+version: 0.031
