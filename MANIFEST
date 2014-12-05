@@ -18,6 +18,7 @@ xt/clone-lens.t
 xt/lens-destroy.t
 xt/lens-utf8.t
 xt/lens.t
+xt/manifest.t
 xt/pod.t
 xt/spawning-lens.t
 META.yml
