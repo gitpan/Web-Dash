@@ -4,7 +4,7 @@
       "Toshio Ito <toshioito@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "Module::Build version 0.4205",
    "license" : [
       "perl_5"
    ],
@@ -28,53 +28,35 @@
       "build" : {
          "requires" : {
             "Test::MockModule" : "0.05",
-            "Test::More" : 0
+            "Test::More" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.40"
+            "Module::Build" : "0.42"
          }
       },
       "runtime" : {
          "requires" : {
             "AnyEvent::DBus" : "0.31",
             "Async::Queue" : "0.02",
-            "Carp" : 0,
-            "Encode" : 0,
-            "File::Find" : 0,
+            "Carp" : "0",
+            "Encode" : "0",
+            "File::Find" : "0",
             "Future::Q" : "0.012",
-            "Getopt::Long" : 0,
-            "JSON" : 0,
+            "Getopt::Long" : "0",
+            "JSON" : "0",
             "Net::DBus" : "1.0",
-            "Plack" : 0,
-            "Plack::Request" : 0,
-            "Plack::Runner" : 0,
-            "Plack::Util" : 0,
-            "Pod::Usage" : 0,
+            "Plack" : "0",
+            "Plack::Request" : "0",
+            "Plack::Runner" : "0",
+            "Plack::Util" : "0",
+            "Pod::Usage" : "0",
             "Scalar::Util" : "1.20",
-            "Try::Tiny" : 0,
-            "Twiggy" : 0,
+            "Try::Tiny" : "0",
+            "Twiggy" : "0",
             "perl" : "5.006"
          }
-      }
-   },
-   "provides" : {
-      "Web::Dash" : {
-         "file" : "lib/Web/Dash.pm",
-         "version" : "0.031"
-      },
-      "Web::Dash::DeeModel" : {
-         "file" : "lib/Web/Dash/DeeModel.pm",
-         "version" : "0.031"
-      },
-      "Web::Dash::Lens" : {
-         "file" : "lib/Web/Dash/Lens.pm",
-         "version" : "0.031"
-      },
-      "Web::Dash::Util" : {
-         "file" : "lib/Web/Dash/Util.pm",
-         "version" : 0
       }
    },
    "release_status" : "stable",
@@ -83,5 +65,5 @@
          "url" : "git://github.com/debug-ito/Web-Dash.git"
       }
    },
-   "version" : "0.031"
+   "version" : "0.04"
 }
